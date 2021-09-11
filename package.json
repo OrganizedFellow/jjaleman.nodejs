@@ -1,5 +1,5 @@
 {
-  "name": "netninja-vue3-firebase",
+  "name": "finally-learning-tailwindcss",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -11,8 +11,12 @@
     "vue": "^3.0.0"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "~4.5.0",
-    "@vue/cli-service": "~4.5.0",
-    "@vue/compiler-sfc": "^3.0.0"
+    "@tailwindcss/postcss7-compat": "^2.2.14",
+    "@vue/cli-plugin-babel": "^5.0.0-alpha.5",
+    "@vue/cli-service": "^5.0.0-alpha.5",
+    "@vue/compiler-sfc": "^3.0.0",
+    "autoprefixer": "^10.3.4",
+    "postcss": "^8.3.6",
+    "tailwindcss": "^2.2.15"
   }
 }
