@@ -1,6 +1,6 @@
 <template>
   <!-- prettier-ignore -->
-  <div class="px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
+  <section class="px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
         <div class="relative flex grid items-center grid-cols-2 lg:grid-cols-3">
             <ul class="flex items-center hidden space-x-8 lg:flex">
                 <li>
@@ -85,7 +85,129 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
+
+  <!-- prettier-ignore -->
+  <section class="container px-5 py-24 mx-auto">
+        <div class="flex flex-wrap -m-4">
+            <section class="p-4 md:w-1/3">
+                <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                    <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="https://hips.hearstapps.com/digitalspyuk.cdnds.net/16/45/1478879153-die-hard.jpg" alt="blog">
+                    <div class="p-6">
+                        <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
+                            CATEGORY
+                            <svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M2 8v8a1 1 0 0 0 1 1h13.62a1 1 0 0 0 .76-.35l3.428-4a1 1 0 0 0 0-1.3l-3.428-4a1 1 0 0 0-.76-.35H3a1 1 0 0 0-1 1ZM0 8v8a3 3 0 0 0 3 3h13.62a3 3 0 0 0 2.278-1.048l3.428-4a3 3 0 0 0 0-3.904l-3.428-4A3 3 0 0 0 16.62 5H3a3 3 0 0 0-3 3Z" fill="currentColor" /><path fill-rule="evenodd" clip-rule="evenodd" d="M15 13a1 1 0 1 0 0-2 1 1 0 0 0 0 2Zm0 2a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z" fill="currentColor" /></svg>
+                        </h2>
+                        <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Die Hard</h1>
+                        <p class="leading-relaxed mb-3">An NYPD officer tries to save his wife and several others taken hostage by German terrorists during a Christmas party at the Nakatomi Plaza in Los
+                            Angeles.</p>
+                        <div class="flex items-center flex-wrap">
+                            <a class="inline-flex items-center md:mb-2 lg:mb-0 text-blue-400 hover:bg-blue-100 p-2 rounded-md" href="#" title="Read More">Read More
+                                <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="M12 5l7 7-7 7"></path></svg>
+                            </a>
+                            <span class="text-gray-400 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
+                                <svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M14 12a2 2 0 1 1-4 0 2 2 0 0 1 4 0Z" fill="currentColor" />
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M12 3C6.408 3 1.71 6.824.378 12 1.71 17.176 6.408 21 12 21c5.591 0 10.29-3.824 11.622-9C22.29 6.824 17.592 3 12 3Zm4 9a4 4 0 1 1-8 0 4 4 0 0 1 8 0Z"
+                                        fill="currentColor" />
+                                </svg>
+                                1.2K
+                            </span>
+                            <span class="text-gray-400 inline-flex items-center leading-none text-sm">
+                                <svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M17 9H7V7h10v2ZM7 13h10v-2H7v2Z" fill="currentColor" />
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M2 18V2h20v16h-6v4h-2a4 4 0 0 1-4-4H2Zm10-2v2a2 2 0 0 0 2 2v-4h6V4H4v12h8Z" fill="currentColor" />
+                                </svg>
+                                6
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="p-4 md:w-1/3">
+                <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                    <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="https://nerdist.com/wp-content/uploads/2019/08/matrix-keanue-reeves-759.jpg" alt="blog">
+                    <section class="p-6">
+                        <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
+                            CATEGORY
+                            <svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M2 8v8a1 1 0 0 0 1 1h13.62a1 1 0 0 0 .76-.35l3.428-4a1 1 0 0 0 0-1.3l-3.428-4a1 1 0 0 0-.76-.35H3a1 1 0 0 0-1 1ZM0 8v8a3 3 0 0 0 3 3h13.62a3 3 0 0 0 2.278-1.048l3.428-4a3 3 0 0 0 0-3.904l-3.428-4A3 3 0 0 0 16.62 5H3a3 3 0 0 0-3 3Z" fill="currentColor" /><path fill-rule="evenodd" clip-rule="evenodd" d="M15 13a1 1 0 1 0 0-2 1 1 0 0 0 0 2Zm0 2a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z" fill="currentColor" /></svg>
+                        </h2>
+                        <h1 class="title-font text-lg font-medium text-gray-900 mb-3">The Matrix</h1>
+                        <p class="leading-relaxed mb-3">Neo (Keanu Reeves) believes that Morpheus (Laurence Fishburne), an elusive figure considered to be the most dangerous man alive, can answer his
+                            question -- What is the Matrix? Neo is contacted by Trinity (Carrie-Anne Moss), a beautiful stranger who leads him into an underworld where he meets Morpheus.</p>
+                        <div class="flex items-center flex-wrap ">
+                            <a class="inline-flex items-center md:mb-2 lg:mb-0 text-blue-400 hover:bg-blue-100 p-2 rounded-md" href="#" title="Read More">Read More
+                                <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M5 12h14"></path>
+                                    <path d="M12 5l7 7-7 7"></path>
+                                </svg>
+                            </a>
+                            <span class="text-purple-400 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
+                                <svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M14 12a2 2 0 1 1-4 0 2 2 0 0 1 4 0Z" fill="currentColor" />
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M12 3C6.408 3 1.71 6.824.378 12 1.71 17.176 6.408 21 12 21c5.591 0 10.29-3.824 11.622-9C22.29 6.824 17.592 3 12 3Zm4 9a4 4 0 1 1-8 0 4 4 0 0 1 8 0Z"
+                                        fill="currentColor" />
+                                </svg>
+                                1.2K
+                            </span>
+                            <span class="text-red-400 inline-flex items-center leading-none text-sm">
+                                <svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M17 9H7V7h10v2ZM7 13h10v-2H7v2Z" fill="currentColor" />
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M2 18V2h20v16h-6v4h-2a4 4 0 0 1-4-4H2Zm10-2v2a2 2 0 0 0 2 2v-4h6V4H4v12h8Z" fill="currentColor" />
+                                </svg>
+                                6
+                            </span>
+                        </div>
+                    </section>
+                </div>
+            </section>
+            <section class="p-4 md:w-1/3">
+                <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                    <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="https://static.wikia.nocookie.net/john-wick8561/images/7/7a/JohnWickChapter3Promo.jpg" alt="blog">
+                    <div class="p-6">
+                        <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
+                            CATEGORY
+                            <svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M2 8v8a1 1 0 0 0 1 1h13.62a1 1 0 0 0 .76-.35l3.428-4a1 1 0 0 0 0-1.3l-3.428-4a1 1 0 0 0-.76-.35H3a1 1 0 0 0-1 1ZM0 8v8a3 3 0 0 0 3 3h13.62a3 3 0 0 0 2.278-1.048l3.428-4a3 3 0 0 0 0-3.904l-3.428-4A3 3 0 0 0 16.62 5H3a3 3 0 0 0-3 3Z"
+                                    fill="currentColor" />
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M15 13a1 1 0 1 0 0-2 1 1 0 0 0 0 2Zm0 2a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z" fill="currentColor" />
+                            </svg>
+                        </h2>
+                        <h1 class="title-font text-lg font-medium text-gray-900 mb-3">John Wick</h1>
+                        <p class="leading-relaxed mb-3">John Wick is an American neo-noir action thriller media franchise created by screenwriter Derek Kolstad and owned by Lionsgate. Keanu Reeves plays
+                            John Wick, a retired hitman who becomes active again in his quest for vengeance.</p>
+                        <div class="flex items-center flex-wrap ">
+                            <a class="inline-flex items-center md:mb-2 lg:mb-0 text-blue-400 hover:bg-blue-100 p-2 rounded-md" href="#" title="Read More">Read More
+                                <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M5 12h14"></path>
+                                    <path d="M12 5l7 7-7 7"></path>
+                                </svg>
+                            </a>
+                            <span class="text-gray-400 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
+                                <svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M14 12a2 2 0 1 1-4 0 2 2 0 0 1 4 0Z" fill="currentColor" />
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M12 3C6.408 3 1.71 6.824.378 12 1.71 17.176 6.408 21 12 21c5.591 0 10.29-3.824 11.622-9C22.29 6.824 17.592 3 12 3Zm4 9a4 4 0 1 1-8 0 4 4 0 0 1 8 0Z"
+                                        fill="currentColor" />
+                                </svg>
+                                1.2K
+                            </span>
+                            <span class="text-gray-400 inline-flex items-center leading-none text-sm">
+                                <svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M17 9H7V7h10v2ZM7 13h10v-2H7v2Z" fill="currentColor" />
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M2 18V2h20v16h-6v4h-2a4 4 0 0 1-4-4H2Zm10-2v2a2 2 0 0 0 2 2v-4h6V4H4v12h8Z" fill="currentColor" />
+                                </svg>
+                                6
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </section>
 </template>
 
 <script>
@@ -106,6 +228,10 @@ export default {
 
 <style>
 /* App.vue */
+
+/* SVG ICONS FROM https://css.gg/app */
+/* ONLINE TOOL TO OPTIMIZE SVG FILES https://jakearchibald.github.io/svgomg/ */
+
 /* p {
     @apply bg-gray-400;
 }
