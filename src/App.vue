@@ -16,14 +16,14 @@
                     <a class="myNav" href="#" aria-label="Product pricing" title="Product pricing">Pricing</a>
                 </li>
             </ul>
-            <a class="myLogo lg:mx-auto" href="#" aria-label="my Logo" title="my Logo">
+            <a class="myLogo lg:mx-auto" href="#" aria-label="J. Jaime Aleman" title="J. Jaime Aleman">
                 <svg viewBox="0 0 24 24" stroke-linejoin="round" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" stroke="currentColor" fill="none">
                     <rect x="3" y="1" width="7" height="12"></rect>
                     <rect x="3" y="17" width="7" height="6"></rect>
                     <rect x="14" y="1" width="7" height="6"></rect>
                     <rect x="14" y="11" width="7" height="12"></rect>
                 </svg>
-                <span>my Logo</span>
+                <span>J. Jaime Aleman</span>
             </a>
             <ul class="flex items-center hidden ml-auto space-x-8 lg:flex">
                 <li>
@@ -45,14 +45,14 @@
                     <div class="p-5 bg-white border rounded shadow-sm">
                         <div class="flex items-center justify-between mb-4">
                             <div>
-                                <a class="myLogo" href="#" aria-label="my Logo" title="my Logo">
+                                <a class="myLogo" href="#" aria-label="J. Jaime Aleman" title="J. Jaime Aleman">
                                     <svg class="w-8 text-purple-400" viewBox="0 0 24 24" stroke-linejoin="round" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" stroke="currentColor" fill="none">
                                         <rect x="3" y="1" width="7" height="12" ></rect> 
                                         <rect x="3" y="17" width="7" height="6" ></rect> 
                                         <rect x="14" y="1" width="7" height="6" ></rect> 
                                         <rect x="14" y="11" width="7" height="12" ></rect>
                                     </svg>
-                                    <span class="ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase">my logo</span></a>
+                                    <span class="ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase">J. Jaime Aleman</span></a>
                             </div>
                             <div>
                                 <button aria-label="Close Menu" title="Close Menu" class="p-2 -mt-2 -mr-2 transition duration-200 rounded hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline" @click="isMenuOpen=false">
