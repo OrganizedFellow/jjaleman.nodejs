@@ -1,19 +1,11 @@
-# netninja-vue3-firebase
+### Sunday, September 12, 2021
 
-## Project setup
-```
-npm install
-```
+---
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+I'm very new to Vue.
 
-### Compiles and minifies for production
-```
-npm run build
-```
+I just recently started a tutorial series and managed to install Vue3 and later got TailwindCSS working. AND I'm learning how to use Netlify to host my project.
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+https://jjaimealeman.netlify.app/
+
+This repo is my starting boilerplate for my future projects.
