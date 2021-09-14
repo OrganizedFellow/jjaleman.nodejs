@@ -2,7 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  font-family: "Noto Sans", sans-serif;
+  color: #161625;
+}
 
+/*
 :root {
   --background-color: #efefef;
   --link-color: rgb(96, 165, 250);
@@ -15,3 +20,15 @@
   --bg-color: #161625;
   --heading-color: #818cab;
 }
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+h1 {
+    color: var(--text-color);
+}
+a {
+    color: var(--link-color);
+}
+*/
