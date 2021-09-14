@@ -1,7 +1,14 @@
 {
-  "name": "jjaleman.nodejs",
-  "version": "0.1.0",
+  "name": "jjaleman",
+  "version": "1.0.0",
   "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/OrganizedFellow/jjaleman.nodejs.git"
+  },
+  "url": "https://jjaimealeman.netlify.app/",
+  "email":"jjaimealeman@gmail.com",
+  "license": "WTFPL",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build"
