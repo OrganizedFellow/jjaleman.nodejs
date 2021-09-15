@@ -1,23 +1,13 @@
-### Tuesday, September 14, 2021 @ 11:32:12 AM
+## Wednesday, September 15, 2021 @ 12:18:47 AM
 
-This will eventually be my portfolio site 👍
+Playing with media queries. This is a long way from done, just having fun 🤪
+
+Look at it on mobile PORTRAIT, then on mobile LANDSCAPE, then again on laptop/desktop 😉
 
 ---
 
 > -   https://jjaimealeman.netlify.app/
 > -   https://github.com/OrganizedFellow/jjaleman.nodejs
-
----
-
-### Tuesday, September 14, 2021 @ 12:03:24 PM
-
-My chosen color palette
-
-> -https://www.colourlovers.com/palette/171623/investment_portfolio
-
-![color palette](src/assets/color_palette.png)
-
-    #0A0707 #463535 #836561 #E5E5D9 #1082B5
 
 ---
 
