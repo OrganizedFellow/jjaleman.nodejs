@@ -2,11 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-    font-family: "Noto Sans", sans-serif;
-    color: #161625;
-}
-
 /*
 :root {
   --background-color: #efefef;
@@ -32,6 +27,44 @@ a {
     color: var(--link-color);
 }
 */
+
+body {
+    /* background: #efefef; */
+    font-family: "Noto Sans", sans-serif;
+    /* color: #161625; */
+}
+
+/*@media (prefers-color-scheme: light) {
+    body {
+        background: #161625;
+        color: #efefef;
+    }
+}*/
+/*@media (light-level: dim) {
+  :root {
+    --text-color: #EFEFEF;
+    --background-color: #161625;
+  }
+}*/
+/* @media (min-width: 640px) and (orientation: landscape) { */
+@media screen and (max-width: 640px) {
+    body {
+        background: #4a9915;
+        color: #efefef;
+    }
+}
+
+/* @media (min-width: 768) and (orientation: portrait) { */
+@media screen and (min-width: 641px) and (max-width: 768px) {
+    body {
+        background: #156f99;
+        color: #efefef;
+    }
+}
+@media screen (min-width: 769px) {
+    background: #efefef;
+    color: #161625;
+}
 
 #maincontain {
     margin: 0 auto;
