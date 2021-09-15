@@ -15,7 +15,6 @@
   --bg-color: #161625;
   --heading-color: #818cab;
 }
-
 body {
     background-color: var(--background-color);
     color: var(--text-color);
@@ -26,75 +25,106 @@ h1 {
 a {
     color: var(--link-color);
 }
-*/
 
-body {
-    /* background: #efefef; */
-    font-family: "Noto Sans", sans-serif;
-    /* color: #161625; */
-}
-
-/*@media (prefers-color-scheme: light) {
+@media (prefers-color-scheme: light) {
     body {
         background: #161625;
         color: #efefef;
     }
-}*/
-/*@media (light-level: dim) {
+}
+@media (light-level: dim) {
   :root {
     --text-color: #EFEFEF;
     --background-color: #161625;
   }
 }*/
-/* @media (min-width: 640px) and (orientation: landscape) { */
-@media screen and (max-width: 640px) {
-    body {
-        background: #4a9915;
-        color: #efefef;
-    }
-}
-
-/* @media (min-width: 768) and (orientation: portrait) { */
-@media screen and (min-width: 641px) and (max-width: 768px) {
-    body {
-        background: #156f99;
-        color: #efefef;
-    }
-}
-@media screen (min-width: 769px) {
-    background: #efefef;
-    color: #161625;
+body {
+    font-family: "Noto Sans", sans-serif;
 }
 
 #maincontain {
     margin: 0 auto;
     max-width: 800px;
 }
-#navigation a {
-    border-bottom: 4px solid transparent;
-    color: #0a0707;
-    margin: 0;
-    padding: 0.8em;
-}
-#navigation a:hover {
-    border-bottom: 4px solid #1082b5;
-    color: #1082b5;
-}
-a.logo h1,
-a.logo svg {
-    color: #1082b5;
-}
-a.logo h1:hover,
-a.logo svg:hover {
-    color: #0a0707;
-}
 .selfie {
-    border-radius: 50%;
-    width: 150px;
+    /* border-radius: 50%; */
+    /* width: 150px; */
 }
 /*
     #aboutme {}
 */
 #icons svg {
     @apply transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-125;
+}
+
+@media screen and (max-width: 640px) {
+    body {
+        background: #88C425;
+        color: #efefef;
+    }
+    .mediaQuery::after {
+        content: " max-width: 640px " ;
+    }
+    a.logo h1::before {
+        content: url("icons8-home-30-1.png");
+    }
+    a.logo h1::after {
+        content: "   J Jaime Aleman";
+    }
+    a.logo h1 {
+        color: #EF4444;
+        letter-spacing: 1px;
+    }
+    a.logo h1:hover {
+        color: #4a9915;
+    }
+    a.logo {
+        border-bottom: 4px solid transparent;
+        color: #0a0707;
+        margin: 0;
+        padding: 0.8em;
+    }
+    a.logo:hover {
+        border-bottom: 4px solid #4a9915;
+        color: #4a9915;
+    }
+    .selfie::after {
+        content: url("icons8-user-80.png")
+    }
+}
+@media screen and (min-width: 641px) and (max-width: 768px) {
+    body {
+        background: #46aad8;
+        color: #efefef;
+    }
+    .mediaQuery::after {
+        content: " min-width: 641px and max-width: 768px " ;
+    }
+    a.logo h1::before {
+        content: url("icons8-home-30-2.png");
+    }
+    a.logo h1::after {
+        content: "   Jaime J Aleman";
+    }
+    .selfie::after {
+        content: url("icons8-user-96.png")
+    }
+}
+@media screen and (min-width: 769px) {
+    body {
+        background: #efefef;
+        color: #161625;
+    }
+    .mediaQuery::after {
+        content: " min-width: 769px " ;
+    }
+    a.logo h1::before {
+        content: url("icons8-home-30-3.png");
+    }
+    a.logo h1::after {
+        content: "   Mr. Jaime J. Aleman";
+    }
+    .selfie::after {
+        content: url("icons8-user-128.png")
+    }
 }

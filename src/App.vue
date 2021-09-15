@@ -1,12 +1,12 @@
 <template>
-        <div class="text-center bg-red-500 sm:bg-green-500 md:bg-blue-400 xl:bg-indigo-800"> &nbsp; </div>
+    <div class="mediaQuery text-center bg-red-500 sm:bg-green-500 md:bg-blue-400 xl:bg-indigo-800"> &nbsp; </div>
     <div id="maincontain">
 
         <header id="navigation" class="mx-auto flex body-font text-gray-600">
             <div class="container mx-auto flex flex-wrap py-5 flex-col md:flex-row items-center">
                 <a class="logo flex font-medium items-center mb-4 md:mb-0" href="#" title="Logo">
-                    <svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="m5.033 14.828 1.415 1.415L10.69 12 6.448 7.757 5.033 9.172 7.862 12l-2.829 2.828ZM15 14h-4v2h4v-2Z" fill="currentColor"/><path fill-rule="evenodd" clip-rule="evenodd" d="M2 2a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H2Zm20 2H2v16h20V4Z" fill="currentColor"/></svg>
-                    <h1 class="ml-3 text-xl">JJAleman</h1>
+                    <!-- <svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="m5.033 14.828 1.415 1.415L10.69 12 6.448 7.757 5.033 9.172 7.862 12l-2.829 2.828ZM15 14h-4v2h4v-2Z" fill="currentColor"/><path fill-rule="evenodd" clip-rule="evenodd" d="M2 2a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H2Zm20 2H2v16h20V4Z" fill="currentColor"/></svg> -->
+                    <h1 class="text-xl"></h1>
                 </a>
                 <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
                     <a class="mr-5 hover:text-gray-900" href="#" title="First">First Link</a>
@@ -25,7 +25,8 @@
                     <p>Just like other Developers, my favorite IDE is VS Code. I build my websites using Vue3 and TailwindCSS. I am well-versed in semantic HTML5, beautiful CSS3, and functional JavaScript.</p>
                 </div>
                 <div class="order-first col-span-1 sm:col-span-1 py-0 pb-8 lg:order-last">
-                    <img class="selfie w-24 sm:w-36 md:w-48 lg:w-60 inline-flex" src="~@/assets/selfie.jpg" alt="selfie1">
+                    <!-- <img class="selfie w-24 sm:w-36 md:w-48 lg:w-60 inline-flex" src="~@/assets/selfie.jpg" alt="selfie1"> -->
+                    <div class="selfie"></div>
                 </div>
             </div>
         </section>
