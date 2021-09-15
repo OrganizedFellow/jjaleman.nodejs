@@ -3,8 +3,8 @@
 @tailwind utilities;
 
 body {
-  font-family: "Noto Sans", sans-serif;
-  color: #161625;
+    font-family: "Noto Sans", sans-serif;
+    color: #161625;
 }
 
 /*
@@ -32,3 +32,36 @@ a {
     color: var(--link-color);
 }
 */
+
+#maincontain {
+    margin: 0 auto;
+    max-width: 800px;
+}
+#navigation a {
+    border-bottom: 4px solid transparent;
+    color: #0a0707;
+    margin: 0;
+    padding: 0.8em;
+}
+#navigation a:hover {
+    border-bottom: 4px solid #1082b5;
+    color: #1082b5;
+}
+a.logo h1,
+a.logo svg {
+    color: #1082b5;
+}
+a.logo h1:hover,
+a.logo svg:hover {
+    color: #0a0707;
+}
+.selfie {
+    border-radius: 50%;
+    width: 150px;
+}
+/*
+    #aboutme {}
+*/
+#icons svg {
+    @apply transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-125;
+}
