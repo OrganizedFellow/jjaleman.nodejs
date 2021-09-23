@@ -18,7 +18,7 @@
         <section id="aboutme" class="container mx-auto flex flex-wrap my-0 p-8 flex-col md:my-10 md:flex-row">
             <div class="flex flex-row justify-between text-center grid gap-4 grid-cols-1 sm:grid-cols-4 md:flex-col">
                 <div class="text-center px-5 sm:text-left lg:text-right lg:px-8 col-span-1 sm:col-span-3">
-                    <p>Well hey there! Thanks for visiting! My name is Jaime J. Aleman and I am a Web Developer specializing in some Front-End and Back-End development. I greatly enjoy long walks on the beach, tacos, and beer <em>(especially a hoppy IPA)</em>.</p>
+                    <p>Well hey there! Thanks for visiting! My name is Jaime J. Aleman and I am a Web Developer specializing in some Front-End and Back-End development. I greatly enjoy long walks on the beach, delicious tacos, and spending time with my two children.</p>
                     <p>Just like other Developers, my favorite IDE is VS Code. I build my websites using Vue3 and TailwindCSS. I am well-versed in semantic HTML5, beautiful CSS3, and functional JavaScript.</p>
                 </div>
                 <div class="order-first col-span-1 sm:col-span-1 py-0 pb-8 lg:order-last">
