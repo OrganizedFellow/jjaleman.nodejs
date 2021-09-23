@@ -38,8 +38,54 @@ a {
     --background-color: #161625;
   }
 }*/
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: "Noto Sans", sans-serif;
+}
+a.logo svg, a.logo svg * {
+    height: 50px;
+    width: 50px;
+}
+a.logo::after {
+    content: "Jaime J. Aleman";
+    font-family: monospace;
+    font-weight: bold;
+}
+a.logo svg:hover, a.logo:hover {
+    color: hsl(225, 73%, 65%);
+}
+#navigation nav a {
+    background: hsl(225, 100%, 95%);
+    border: 1px solid #333333;
+    border-radius: 0.3em;
+    color: #333;
+    padding: 0.4em 0.6em;
+}
+#navigation nav a:hover {
+    background: hsl(225, 100%, 75%);
+    color: #000;
+    box-shadow: 1px 2px 2px hsl(220deg 60% 50% / 0.333),
+        2px 4px 4px hsl(220deg 60% 50% / 0.333),
+        3px 6px 6px hsl(220deg 60% 50% / 0.333);
+}
+section {
+    border-bottom: 2px solid hsl(225, 73%, 65%);
+}
+section:last-of-type {
+    border-bottom: none;
+}
+.selfiepic {
+    border: 1px solid #efefef;
+    border-radius: 0.5em;
+    box-shadow: 0px 0px 2px hsl(220deg 60% 50% / 0.2),
+        0px 0px 4px hsl(220deg 60% 50% / 0.2),
+        0px 0px 8px hsl(220deg 60% 50% / 0.2),
+        0px 0px 16px hsl(220deg 60% 50% / 0.2),
+        0px 0px 32px hsl(220deg 60% 50% / 0.2);
+    transform: rotate(-2deg);
 }
 #maincontain {
     box-shadow: 0px 2px 2px hsl(220deg 60% 50% / 0.2),
@@ -47,67 +93,22 @@ body {
         0px 8px 8px hsl(220deg 60% 50% / 0.2),
         0px 16px 16px hsl(220deg 60% 50% / 0.2),
         0px 32px 32px hsl(220deg 60% 50% / 0.2);
-    margin: 0 auto 2em auto;
+    /* margin: 0 auto 2em auto; */
     /* max-width: 768px; */
     padding: 1em;
 }
-#icons svg {
+#techstack svg {
     @apply transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-125;
 }
 
-@media screen and (max-width: 640px) {
-    .mediaQuery::after {
-        content: " max-width: 640px ";
-    }
-}
-@media screen and (min-width: 641px) and (max-width: 768px) {
-    .mediaQuery::after {
-        content: " min-width: 641px and max-width: 768px ";
-    }
-}
-@media screen and (min-width: 769px) {
-    .mediaQuery::after {
-        content: " min-width: 769px ";
-    }
-}
-@media screen and (min-width: 1024px) {
-    .mediaQuery::after {
-        content: " min-width: 1024px ";
-    }
-}
-
 @media screen and (max-width: 769px) {
-    body {
-        color: #333;
+    a.logo svg, a.logo svg * {
+        height: 30px;
+        width: 30px;
     }
-    section {
-        border-bottom: 2px solid hsl(225, 73%, 65%);
-    }
-    a.logo h1::before {
-        content: url("icons8-home-30-1.png");
-    }
-    a.logo h1::after {
-        content: "   J. J. Aleman";
-    }
-    #navigation nav a {
-        border: 1px solid #333333;
-        border-radius: 0.3em;
-        color: #333;
-        padding: 0.4em;
-    }
-    #navigation nav a:hover {
-        background: hsl(225, 73%, 65%);
-        color: #000;
-        box-shadow: 1px 2px 2px hsl(220deg 60% 50% / 0.333),
-            2px 4px 4px hsl(220deg 60% 50% / 0.333),
-            3px 6px 6px hsl(220deg 60% 50% / 0.333);
-    }
-    .selfieicon::after {
-        content: url("icons8-user-80.png");
-    }
-    .selfiepic {
-        display: none;
-    }
+
+
+
     #contact form {
         border: 1px solid #333;
         margin: 0 auto;
@@ -136,7 +137,7 @@ body {
         text-align: center;
     }
     #contact form button:hover {
-        background: hsl(225, 73%, 65%);
+        background: hsl(225, 100%, 75%);
         color: #000;
         box-shadow: 1px 2px 2px hsl(220deg 60% 50% / 0.333),
             2px 4px 4px hsl(220deg 60% 50% / 0.333),
@@ -146,36 +147,15 @@ body {
 
 @media screen and (min-width: 769px) {
     body {
-        color: #5b5b5b;
         font-size: 1.1em;
     }
-    section {
-        border-bottom: 2px solid hsl(130, 73%, 65%);
+    a.logo svg, a.logo svg * {
+        height: 40px;
+        width: 40px;
     }
-    a.logo h1::before {
-        content: url("icons8-home-30-3.png");
-    }
-    a.logo h1::after {
-        content: "   Mr. Jaime J. Aleman";
-    }
-    #navigation nav a {
-        background: hsl(130, 73%, 65%);
-        border: 1px solid #efefef;
-        border-radius: 0.5em;
-        color: #5b5b5b;
-        margin: 0 0.5em;
-        padding: 0.55em;
-    }
-    #navigation nav a:hover {
-        background: hsl(130, 73%, 40%);
-        box-shadow: 1px 2px 2px hsl(130deg 60% 50% / 0.333),
-            2px 4px 4px hsl(130deg 60% 50% / 0.333),
-            3px 6px 6px hsl(130deg 60% 50% / 0.333);
-        color: #333333;
-    }
-    .selfiepic {
-        border-radius: 50%;
-    }
+
+
+
     #contact form {
         border: 1px solid #333;
         margin: 0 auto;
@@ -217,12 +197,13 @@ body {
 }
 
 @media screen and (min-width: 1024px) {
-    .mediaQuery::after {
-        content: " min-width: 1024px ";
-    }
     body {
         font-size: 1.5em;
         margin: 0 auto 2em auto;
         max-width: 1200px;
+    }
+    a.logo svg, a.logo svg * {
+        height: 50px;
+        width: 50px;
     }
 }
