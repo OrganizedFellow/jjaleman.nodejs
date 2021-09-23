@@ -4,7 +4,7 @@
             <div class="container mx-auto flex flex-wrap py-5 flex-col md:flex-row items-center">
                 <a class="logo flex font-medium items-center pl-5 mb-4 md:mb-0" href="#" title="Home">
                     <svg viewBox="0 0 25 25" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m8 9 3 3-3 3m5 0h3M5 20h14a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2z"/></svg>
-                    <h1 class="text-xl"></h1>
+                    <h1 class="text-xl">Jaime J. Aleman / Web Developer</h1>
                 </a>
                 <nav class="pr-5 md:ml-auto flex flex-wrap items-center text-base justify-center">
                     <a class="mr-5 focus:ring-2 focus:ring-red-500" href="#projects" title="My Projects">Projects</a>
@@ -12,6 +12,17 @@
                 </nav>
             </div>
         </header>
+
+        <section class="container">
+            <div>
+                <div>
+                    <p>Testing the <pre>dev branch</pre></p>
+                </div>
+                <div>
+                    <img width="25" height="25" src="broken.image.jpg" alt="">
+                </div>
+            </div>
+        </section>
 
         <section id="aboutme" class="container mx-auto flex flex-wrap my-0 p-4 flex-col md:my-10 md:flex-row">
             <div class="flex flex-row justify-between text-center grid gap-4 grid-cols-1 sm:grid-cols-4 md:flex-col">

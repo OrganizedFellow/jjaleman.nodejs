@@ -49,10 +49,9 @@ a.logo svg, a.logo svg * {
     height: 50px;
     width: 50px;
 }
-a.logo::after {
-    content: "Jaime J. Aleman";
+a.logo h1 {
     font-family: monospace;
-    font-weight: bold;
+    padding-left: 0.5em;
 }
 a.logo svg:hover, a.logo:hover {
     color: hsl(225, 73%, 65%);
