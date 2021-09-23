@@ -42,11 +42,11 @@ body {
     font-family: "Noto Sans", sans-serif;
 }
 #maincontain {
-  box-shadow: 0px 2px 2px hsl(220deg 60% 50% / 0.2),
-              0px 4px 4px hsl(220deg 60% 50% / 0.2), 
-              0px 8px 8px hsl(220deg 60% 50% / 0.2),
-              0px 16px 16px hsl(220deg 60% 50% / 0.2),
-              0px 32px 32px hsl(220deg 60% 50% / 0.2);
+    box-shadow: 0px 2px 2px hsl(220deg 60% 50% / 0.2),
+        0px 4px 4px hsl(220deg 60% 50% / 0.2),
+        0px 8px 8px hsl(220deg 60% 50% / 0.2),
+        0px 16px 16px hsl(220deg 60% 50% / 0.2),
+        0px 32px 32px hsl(220deg 60% 50% / 0.2);
     margin: 0 auto 2em auto;
     /* max-width: 768px; */
     padding: 1em;
@@ -55,17 +55,33 @@ body {
     @apply transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-125;
 }
 
-@media screen and (max-width: 640px) { .mediaQuery::after { content: " max-width: 640px " ; } }
-@media screen and (min-width: 641px) and (max-width: 768px) { .mediaQuery::after { content: " min-width: 641px and max-width: 768px " ; } }
-@media screen and (min-width: 769px) { .mediaQuery::after { content: " min-width: 769px " ; } }
-@media screen and (min-width: 1024px) { .mediaQuery::after { content: " min-width: 1024px " ; } }
+@media screen and (max-width: 640px) {
+    .mediaQuery::after {
+        content: " max-width: 640px ";
+    }
+}
+@media screen and (min-width: 641px) and (max-width: 768px) {
+    .mediaQuery::after {
+        content: " min-width: 641px and max-width: 768px ";
+    }
+}
+@media screen and (min-width: 769px) {
+    .mediaQuery::after {
+        content: " min-width: 769px ";
+    }
+}
+@media screen and (min-width: 1024px) {
+    .mediaQuery::after {
+        content: " min-width: 1024px ";
+    }
+}
 
 @media screen and (max-width: 769px) {
     body {
         color: #333;
     }
     section {
-        border-bottom: 2px solid hsl(225, 73%, 65%);;
+        border-bottom: 2px solid hsl(225, 73%, 65%);
     }
     a.logo h1::before {
         content: url("icons8-home-30-1.png");
@@ -83,11 +99,11 @@ body {
         background: hsl(225, 73%, 65%);
         color: #000;
         box-shadow: 1px 2px 2px hsl(220deg 60% 50% / 0.333),
-                    2px 4px 4px hsl(220deg 60% 50% / 0.333),
-                    3px 6px 6px hsl(220deg 60% 50% / 0.333);
+            2px 4px 4px hsl(220deg 60% 50% / 0.333),
+            3px 6px 6px hsl(220deg 60% 50% / 0.333);
     }
     .selfieicon::after {
-        content: url("icons8-user-80.png")
+        content: url("icons8-user-80.png");
     }
     .selfiepic {
         display: none;
@@ -99,10 +115,12 @@ body {
         width: 500px;
         max-width: 100%;
     }
-    #contact form label, #contact form button {
+    #contact form label,
+    #contact form button {
         display: block;
     }
-    #contact form input, #contact form textarea {
+    #contact form input,
+    #contact form textarea {
         border: 1px solid #333;
         margin-bottom: 1em;
         padding: 0.5em;
@@ -121,10 +139,9 @@ body {
         background: hsl(225, 73%, 65%);
         color: #000;
         box-shadow: 1px 2px 2px hsl(220deg 60% 50% / 0.333),
-                    2px 4px 4px hsl(220deg 60% 50% / 0.333),
-                    3px 6px 6px hsl(220deg 60% 50% / 0.333);
+            2px 4px 4px hsl(220deg 60% 50% / 0.333),
+            3px 6px 6px hsl(220deg 60% 50% / 0.333);
     }
-
 }
 
 @media screen and (min-width: 769px) {
@@ -133,7 +150,7 @@ body {
         font-size: 1.1em;
     }
     section {
-        border-bottom: 2px solid hsl(130, 73%, 65%);;
+        border-bottom: 2px solid hsl(130, 73%, 65%);
     }
     a.logo h1::before {
         content: url("icons8-home-30-3.png");
@@ -148,14 +165,12 @@ body {
         color: #5b5b5b;
         margin: 0 0.5em;
         padding: 0.55em;
-        
-
     }
     #navigation nav a:hover {
         background: hsl(130, 73%, 40%);
         box-shadow: 1px 2px 2px hsl(130deg 60% 50% / 0.333),
-                    2px 4px 4px hsl(130deg 60% 50% / 0.333),
-                    3px 6px 6px hsl(130deg 60% 50% / 0.333);
+            2px 4px 4px hsl(130deg 60% 50% / 0.333),
+            3px 6px 6px hsl(130deg 60% 50% / 0.333);
         color: #333333;
     }
     .selfiepic {
@@ -168,10 +183,12 @@ body {
         width: 700px;
         max-width: 100%;
     }
-    #contact form label, #contact form button {
+    #contact form label,
+    #contact form button {
         display: block;
     }
-    #contact form input, #contact form textarea {
+    #contact form input,
+    #contact form textarea {
         border: 1px solid #333;
         margin-bottom: 1em;
         padding: 0.5em;
@@ -189,25 +206,23 @@ body {
     #contact form button {
         background: hsl(130, 73%, 65%);
         columns: #5b5b5b;
-
     }
     #contact form button:hover {
         background: hsl(130, 73%, 40%);
         color: #333;
         box-shadow: 1px 2px 2px hsl(130deg 60% 50% / 0.333),
-                    2px 4px 4px hsl(130deg 60% 50% / 0.333),
-                    3px 6px 6px hsl(130deg 60% 50% / 0.333);
+            2px 4px 4px hsl(130deg 60% 50% / 0.333),
+            3px 6px 6px hsl(130deg 60% 50% / 0.333);
     }
-
 }
 
 @media screen and (min-width: 1024px) {
-    .mediaQuery::after { content: " min-width: 1024px " ; }
+    .mediaQuery::after {
+        content: " min-width: 1024px ";
+    }
     body {
         font-size: 1.5em;
         margin: 0 auto 2em auto;
         max-width: 1200px;
-
     }
-
 }
