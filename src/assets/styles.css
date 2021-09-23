@@ -41,9 +41,21 @@ a {
 html {
     scroll-behavior: smooth;
 }
-
 body {
+    background: hsl(0, 0%, 90%);
     font-family: "Noto Sans", sans-serif;
+}
+#maincontain {
+    background: hsl(0, 0%, 98%);
+    box-shadow: 0px 2px 2px hsl(220deg 60% 50% / 0.2),
+        0px 4px 4px hsl(220deg 60% 50% / 0.2),
+        0px 8px 8px hsl(220deg 60% 50% / 0.2),
+        0px 16px 16px hsl(220deg 60% 50% / 0.2),
+        0px 32px 32px hsl(220deg 60% 50% / 0.2);
+    /* margin: 0 auto 2em auto; */
+    /* max-width: 768px; */
+    padding: 1em;
+    margin-top: 1em;
 }
 a.logo svg, a.logo svg * {
     height: 50px;
@@ -86,16 +98,6 @@ section:last-of-type {
         0px 0px 16px hsl(220deg 60% 50% / 0.2),
         0px 0px 32px hsl(220deg 60% 50% / 0.2);
     transform: rotate(-2deg);
-}
-#maincontain {
-    box-shadow: 0px 2px 2px hsl(220deg 60% 50% / 0.2),
-        0px 4px 4px hsl(220deg 60% 50% / 0.2),
-        0px 8px 8px hsl(220deg 60% 50% / 0.2),
-        0px 16px 16px hsl(220deg 60% 50% / 0.2),
-        0px 32px 32px hsl(220deg 60% 50% / 0.2);
-    /* margin: 0 auto 2em auto; */
-    /* max-width: 768px; */
-    padding: 1em;
 }
 #techstack svg {
     @apply transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-125;

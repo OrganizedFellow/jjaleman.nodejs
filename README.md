@@ -1,8 +1,8 @@
-## Wednesday, September 15, 2021 @ 12:18:47 AM
+## Thursday, September 23, 2021 @ 11:15:15 AM
 
-Playing with media queries. This is a long way from done, just having fun 🤪
+Learning to use the awesome features on Netlify.
 
-Look at it on mobile PORTRAIT, then on mobile LANDSCAPE, then again on laptop/desktop 😉
+Changes DNS settings to point to my project on Netlify.
 
 ---
 
