@@ -19,6 +19,9 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+br {
+    margin-bottom: 0.5em;
+}
 .container {
     margin-bottom: 5em;
 }

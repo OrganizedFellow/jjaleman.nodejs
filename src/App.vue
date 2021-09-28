@@ -3,7 +3,7 @@
     <div class="container mx-auto">
 
         <h1 class="text-5xl text-center pt-32">Hi all, I'm Jaime J. Aleman</h1>
-        <h2 class="text-3xl text-center pt-10">I like building <span class="cross">cool</span> <span class="cross">functional</span> <strong>bad-ass</strong> websites <br /> 
+        <h2 class="text-3xl text-center pt-10">I like building <span class="cross">cool</span> <span class="cross">functional</span> <strong>bad-ass</strong> fast functional websites <br /> 
         with JavaScript and other exciting technologies.</h2>
 
         <div class="grid justify-items-center py-20">
@@ -25,7 +25,7 @@
 
         <section class="pt-20">
             <div class="tree-wrap tree-wrap-advanced">
-                <div class="tree-label">And these are the more advanced ones:</div>
+                <div class="tree-label">And these are the more advanced tools I enjoy:</div>
                 <div class="tree-stem"></div>
                 <div class="tree">
                     <div class="netlify" title="Netlify"></div>
@@ -38,22 +38,32 @@
         <section class="grid justify-items-center text-center py-20">
             <h2>That sounds great, right? <br /> But what does it all mean?</h2>
             <img class="py-4" src="@/assets/icons8-faq-48.png" alt="Frequently Asked Questions" title="Frequently Asked Questions">
-            <h2>Let me explain in the simplest of terms ... </h2>
+            <h2>Let me explain in the simplest of terms that a typical home owner can understand ... </h2>
         </section>
 
-        <section class="grid grid-flow-col grid-cols-3 gap-3 text-gray-200 px-5">
-            <p class="mx-5 px-5 pt-5 border-t-2"> <img src="@/assets/icons8-html-5-48.png" alt=""> <pre>&lt;html></pre> The HTML of your website is like the foundation and wooden support structure of your home. <br />
-            This includes the door and window frames, as well as the square footage of the living room, and the height of the attic. <br />
-            This is also the back porch and the fencing around your yard.</p>
-            <p class="mx-5 px-5 pt-5 border-t-2"> <img src="@/assets/icons8-css3-48.png" alt=""> <pre>&lt;css&gt;</pre> The CSS is the color of the walls, the thickness of your carpet, and the texture of your siding. <br />
-            It is also the difference between red bricks or vinyl siding. <br />
-            Do you want swirly gray marble tiles in the hallways or hardwood? <br />
-            Maybe ceramic 12x12 tiles in the bathrooms?  <br />
-            Do the kids rooms get thick shag blue carpet or a green stain-proof carpet?</p>
-            <p class="mx-5 px-5 pt-5 border-t-2"> <img src="@/assets/icons8-javascript-48.png" alt=""> <pre>&lt;script&gt;</pre> The JavaScript are the fun additions to your home! <br />
-            The fading light dimmer for your multi-colored LED lights. <br />
-            The commanding voice alert when someone approaches your front door. <br />
-            The sensor that turns on your bathroom light in the middle of the night.</p>
+        <section class="grid grid-flow-col grid-cols-3 gap-3 text-gray-200 px-5 justify-items-center">
+            <p class="mx-5 px-5 pt-5 border-t-2">
+                <img class="mx-auto" src="@/assets/icons8-html-5-48.png" alt="">
+                <pre class="text-center pb-2 text-yellow-700"><span class="bg-gray-200 p-1 rounded-lg">&lt;html&gt;</span></pre>
+                The HTML of your website is like the foundation and wooden support structure of your home. <br />
+                This includes the door and window frames, as well as the opening of your garage, and the things stored in your attic. <br />
+                This is also the back porch, the fencing around your yard, and where you park your car.
+            </p>
+            <p class="mx-5 px-5 pt-5 border-t-2">
+                <img class="mx-auto" src="@/assets/icons8-css3-48.png" alt="">
+                <pre class="text-center pb-2 text-blue-500"><span class="bg-gray-200 p-1 rounded-lg">&lt;css&gt;</span></pre>
+                The CSS is the color of the walls, the thickness of your carpet, and the texture of your walls. <br />
+                This is the square footage of your rooms, the height and width of your door/window frames. <br />
+                This is also the size of your yard, the height of your fence, and the angle of your driveway.
+            </p>
+            <p class="mx-5 px-5 pt-5 border-t-2">
+                <img class="mx-auto" src="@/assets/icons8-javascript-48.png" alt="">
+                <pre class="text-center pb-2 text-yellow-400"><span class="bg-gray-200 p-1 rounded-lg">&lt;script&gt;</span></pre>
+                The JavaScript are the fun additions to your home! <br />
+                The fading light dimmer for your multi-colored LED lights. <br />
+                The commanding voice alert when someone approaches your front door. <br />
+                The sensor that turns on your bathroom light in the middle of the night.
+            </p>
         </section>
 
 
@@ -90,7 +100,7 @@ export default {
     text-decoration: line-through;
 }
 code {
-    background: #ccc;
+    background: #cccccc77;
     border-radius: 0.25em;
     color: #333;
     cursor: help;
@@ -147,6 +157,7 @@ code {
     /* border-radius: 9999px; */
     bottom: -2.5rem;
     content: '';
+    filter: drop-shadow(0 0 0.25rem #333);
     /* display: block; */
     flex: none;
     /* height: 2.5rem; */
@@ -162,6 +173,7 @@ code {
     display: inline-block;
     height: 48px;
     width: 48px;
+    
 }
 .tree .css:after {
     background-size: 100%;
