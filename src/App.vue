@@ -1,7 +1,7 @@
 <template>
     <div class="container mx-auto">
         <h1 class="text-5xl text-center pt-16 md:pt-32">Hi all, I'm Jaime J. Aleman</h1>
-        <h2 class="text-3xl text-center pt-10">I like building <span class="cross">cool</span> <span class="cross">functional</span> <strong>bad-ass</strong> fast functional websites <br /> 
+        <h2 class="text-3xl text-center pt-10">I like building nice and fast functional websites <br /> 
         with JavaScript and other exciting technologies.</h2>
         <div class="grid justify-items-center py-10 md:py-20">
             <img class="selfiepic w-24 sm:w-36 md:w-48 lg:w-60" src="~@/assets/vectorme.png" alt="selfie1" title="I made this vectorized portrait of myself!" />
