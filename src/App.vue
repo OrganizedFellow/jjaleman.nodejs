@@ -1,15 +1,11 @@
 <template>
-
     <div class="container mx-auto">
-
-        <h1 class="text-5xl text-center pt-32">Hi all, I'm Jaime J. Aleman</h1>
+        <h1 class="text-5xl text-center pt-16 md:pt-32">Hi all, I'm Jaime J. Aleman</h1>
         <h2 class="text-3xl text-center pt-10">I like building <span class="cross">cool</span> <span class="cross">functional</span> <strong>bad-ass</strong> fast functional websites <br /> 
         with JavaScript and other exciting technologies.</h2>
-
-        <div class="grid justify-items-center py-20">
-            <img class="selfiepic w-24 sm:w-36 md:w-48 lg:w-60" src="~@/assets/vectorme.png" alt="selfie1" title="This VECTOR me!" />
+        <div class="grid justify-items-center py-10 md:py-20">
+            <img class="selfiepic w-24 sm:w-36 md:w-48 lg:w-60" src="~@/assets/vectorme.png" alt="selfie1" title="I made this vectorized portrait of myself!" />
         </div>
-
         <section>
             <div class="tree-wrap tree-wrap-simple">
                 <div class="tree-label">At the heart of every website, these are the simple languages used:</div>
@@ -22,8 +18,7 @@
                 <h2>That's not just what I use, it's what every single website on the <code title="World Wide Web">www</code> uses.</h2>
             </div>
         </section>
-
-        <section class="pt-20">
+        <section class="pt-5">
             <div class="tree-wrap tree-wrap-advanced">
                 <div class="tree-label">And these are the more advanced tools I enjoy:</div>
                 <div class="tree-stem"></div>
@@ -34,32 +29,30 @@
                 </div>
             </div>
         </section>
-
-        <section class="grid justify-items-center text-center py-20">
+        <section class="grid justify-items-center text-center pt-20 pb-10">
             <h2>That sounds great, right? <br /> But what does it all mean?</h2>
             <img class="py-4" src="@/assets/icons8-faq-48.png" alt="Frequently Asked Questions" title="Frequently Asked Questions">
-            <h2>Let me explain in the simplest of terms that a typical home owner can understand ... </h2>
+            <h2 class="text-xl">Let me explain in the simplest of terms that a typical home owner can understand ... </h2>
         </section>
-
-        <section class="grid grid-flow-col grid-cols-3 gap-3 text-gray-200 px-5 justify-items-center">
-            <p class="mx-5 px-5 pt-5 border-t-2">
-                <img class="mx-auto" src="@/assets/icons8-html-5-48.png" alt="">
+        <section class="grid grid-flow-row grid-cols-1 gap-3 text-gray-200 px-5 justify-items-center text-center">
+            <p class="mx-5 px-5 pt-5 pb-5 bg-gray-100 bg-opacity-10 rounded-xl mb-4">
+                <img class="mx-auto" src="@/assets/icons8-html-5-48.png" alt="What is html?" title="What is html?">
                 <pre class="text-center pb-2 text-yellow-700"><span class="bg-gray-200 p-1 rounded-lg">&lt;html&gt;</span></pre>
                 The HTML of your website is like the foundation and wooden support structure of your home. <br />
                 This includes the door and window frames, as well as the entry way of your garage, and the things stored in your attic. <br />
                 This is also the back porch, the fencing around your yard, and where you park your car.
             </p>
-            <p class="mx-5 px-5 pt-5 border-t-2">
-                <img class="mx-auto" src="@/assets/icons8-css3-48.png" alt="">
+            <p class="mx-5 px-5 pt-5 pb-5 bg-gray-100 bg-opacity-10 rounded-xl mb-4">
+                <img class="mx-auto" src="@/assets/icons8-css3-48.png" alt="What is css?" title="What is css?">
                 <pre class="text-center pb-2 text-blue-500"><span class="bg-gray-200 p-1 rounded-lg">&lt;css&gt;</span></pre>
                 The CSS is the color of the walls, the thickness of your carpet, and the texture of your walls and carpet. <br />
                 This is the square footage of your rooms, the height and width of your door/window frames. <br />
                 This is also the size of your yard, the height of your fence, and the angle of your driveway.
             </p>
-            <p class="mx-5 px-5 pt-5 border-t-2">
-                <img class="mx-auto" src="@/assets/icons8-javascript-48.png" alt="">
-                <pre class="text-center pb-2 text-yellow-400"><span class="bg-gray-200 p-1 rounded-lg">&lt;script&gt;</span></pre>
-                The JavaScript are the fun additions to your home! <br />
+            <p class="mx-5 px-5 pt-5 pb-5 bg-gray-100 bg-opacity-10 rounded-xl mb-4">
+                <img class="mx-auto" src="@/assets/icons8-javascript-48.png" alt="What is JavaScript?" title="What is JavaScript?">
+                <pre class="text-center pb-2 text-yellow-500"><span class="bg-gray-200 p-1 rounded-lg">&lt;script&gt;</span></pre>
+                The JavaScript are the <em>fun additions</em> to your home! <br />
                 The fading light dimmer for your multi-colored LED lights. <br />
                 The commanding voice alert when someone approaches your front door. <br />
                 The sensor that turns on your bathroom light in the middle of the night.
@@ -69,8 +62,6 @@
 
     </div>
     <!-- container -->
-
-
 </template>
 
 <script>
@@ -94,6 +85,11 @@ export default {
 
 /* SVG ICONS FROM https://css.gg/app */
 /* ONLINE TOOL TO OPTIMIZE SVG FILES https://jakearchibald.github.io/svgomg/ */
+
+::selection, ::-moz-selection {
+    background: #213632;
+    color: #e5e5e5;
+}
 
 .cross {
     color: #e5e5e577;
