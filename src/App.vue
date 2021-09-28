@@ -3,24 +3,58 @@
     <div class="container mx-auto">
 
         <h1 class="text-5xl text-center pt-32">Hi all, I'm Jaime J. Aleman</h1>
-        <h2 class="text-3xl text-center pt-10">I like building cool websites with JavaScript and other exciting frameworks.</h2>
+        <h2 class="text-3xl text-center pt-10">I like building <span class="cross">cool</span> <span class="cross">functional</span> <strong>bad-ass</strong> websites <br /> 
+        with JavaScript and other exciting technologies.</h2>
 
-        <div class="grid justify-items-center pt-20 pb-14">
+        <div class="grid justify-items-center py-20">
             <img class="selfiepic w-24 sm:w-36 md:w-48 lg:w-60" src="~@/assets/vectorme.png" alt="selfie1" title="This VECTOR me!" />
         </div>
 
-        <section id="techstack" class="">
-            <div class="tree-wrap">
+        <section>
+            <div class="tree-wrap tree-wrap-simple">
                 <div class="tree-label">At the heart of every website, these are the simple languages used:</div>
                 <div class="tree-stem"></div>
                 <div class="tree">
-                    <div class="html"></div>
-                    <div class="css"></div>
-                    <div class="js"></div>
+                    <div class="html" title="HTML5"></div>
+                    <div class="css" title="CSS3"></div>
+                    <div class="js" title="JavaScript"></div>
+                </div>
+                <h2>That's not just what I use, it's what every single website on the <code title="World Wide Web">www</code> uses.</h2>
+            </div>
+        </section>
+
+        <section class="pt-20">
+            <div class="tree-wrap tree-wrap-advanced">
+                <div class="tree-label">And these are the more advanced ones:</div>
+                <div class="tree-stem"></div>
+                <div class="tree">
+                    <div class="netlify" title="Netlify"></div>
+                    <div class="nodejs" title="NodeJS"></div>
+                    <div class="vue" title="Vue3"></div>
                 </div>
             </div>
         </section>
 
+        <section class="grid justify-items-center text-center py-20">
+            <h2>That sounds great, right? <br /> But what does it all mean?</h2>
+            <img class="py-4" src="@/assets/icons8-faq-48.png" alt="Frequently Asked Questions" title="Frequently Asked Questions">
+            <h2>Let me explain in the simplest of terms ... </h2>
+        </section>
+
+        <section class="grid grid-flow-col grid-cols-3 gap-3 text-gray-200 px-5">
+            <p class="mx-5 px-5 pt-5 border-t-2"> <img src="@/assets/icons8-html-5-48.png" alt=""> <pre>&lt;html></pre> The HTML of your website is like the foundation and wooden support structure of your home. <br />
+            This includes the door and window frames, as well as the square footage of the living room, and the height of the attic. <br />
+            This is also the back porch and the fencing around your yard.</p>
+            <p class="mx-5 px-5 pt-5 border-t-2"> <img src="@/assets/icons8-css3-48.png" alt=""> <pre>&lt;css&gt;</pre> The CSS is the color of the walls, the thickness of your carpet, and the texture of your siding. <br />
+            It is also the difference between red bricks or vinyl siding. <br />
+            Do you want swirly gray marble tiles in the hallways or hardwood? <br />
+            Maybe ceramic 12x12 tiles in the bathrooms?  <br />
+            Do the kids rooms get thick shag blue carpet or a green stain-proof carpet?</p>
+            <p class="mx-5 px-5 pt-5 border-t-2"> <img src="@/assets/icons8-javascript-48.png" alt=""> <pre>&lt;script&gt;</pre> The JavaScript are the fun additions to your home! <br />
+            The fading light dimmer for your multi-colored LED lights. <br />
+            The commanding voice alert when someone approaches your front door. <br />
+            The sensor that turns on your bathroom light in the middle of the night.</p>
+        </section>
 
 
     </div>
@@ -51,21 +85,42 @@ export default {
 /* SVG ICONS FROM https://css.gg/app */
 /* ONLINE TOOL TO OPTIMIZE SVG FILES https://jakearchibald.github.io/svgomg/ */
 
+.cross {
+    color: #e5e5e577;
+    text-decoration: line-through;
+}
+code {
+    background: #ccc;
+    border-radius: 0.25em;
+    color: #333;
+    cursor: help;
+    padding: 0.2em 0.35em;
+}
 .tree-wrap {
     align-items: center;
-    background-color: hsla(228, 8%, 12%, 0.25);
-    border-radius: 0.5em;
+    /* background-color: hsla(228, 8%, 12%, 0.25); */
+    /* border-radius: 0.5em; */
     display: flex;
     flex-direction: column;
     height: 15rem;
     justify-content: center;
     margin: 0 auto;
     padding: 1rem 0;
+    /* width: 90%; */
+}
+.tree-wrap h2 {
+    color: #fc0;
+    padding-top: 3.5em;
+}
+.tree-wrap-simple {
     width: 90%;
+}
+.tree-wrap-advanced {
+    width: 70%;
 }
 .tree-label {
     color: white;
-    /* margin-bottom: 2.5em; */
+    margin-bottom: 0.25em;
 }
 .tree-stem {
     background-color: white;
@@ -103,21 +158,42 @@ export default {
 */
 .tree .html::after {
     background-size: 100%;
-    background: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iNDgiIGhlaWdodD0iNDgiCnZpZXdCb3g9IjAgMCA0OCA0OCIKc3R5bGU9IiBmaWxsOiMwMDAwMDA7Ij48cGF0aCBmaWxsPSIjRTY1MTAwIiBkPSJNNDEsNUg3bDMsMzRsMTQsNGwxNC00TDQxLDVMNDEsNXoiPjwvcGF0aD48cGF0aCBmaWxsPSIjRkY2RDAwIiBkPSJNMjQgOEwyNCAzOS45IDM1LjIgMzYuNyAzNy43IDh6Ij48L3BhdGg+PHBhdGggZmlsbD0iI0ZGRiIgZD0iTTI0LDI1di00aDguNmwtMC43LDExLjVMMjQsMzUuMXYtNC4ybDQuMS0xLjRsMC4zLTQuNUgyNHogTTMyLjksMTdsMC4zLTRIMjR2NEgzMi45eiI+PC9wYXRoPjxwYXRoIGZpbGw9IiNFRUUiIGQ9Ik0yNCwzMC45djQuMmwtNy45LTIuNkwxNS43LDI3aDRsMC4yLDIuNUwyNCwzMC45eiBNMTkuMSwxN0gyNHYtNGgtOS4xbDAuNywxMkgyNHYtNGgtNC42TDE5LjEsMTd6Ij48L3BhdGg+PC9zdmc+') 50% 50% no-repeat;
+    background: url('/src/assets/icons8-html-5-48.png') 50% 50% no-repeat;
     display: inline-block;
     height: 48px;
     width: 48px;
 }
 .tree .css:after {
     background-size: 100%;
-    background: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iNDgiIGhlaWdodD0iNDgiCnZpZXdCb3g9IjAgMCA0OCA0OCIKc3R5bGU9IiBmaWxsOiMwMDAwMDA7Ij48cGF0aCBmaWxsPSIjMDI3N0JEIiBkPSJNNDEsNUg3bDMsMzRsMTQsNGwxNC00TDQxLDVMNDEsNXoiPjwvcGF0aD48cGF0aCBmaWxsPSIjMDM5QkU1IiBkPSJNMjQgOEwyNCAzOS45IDM1LjIgMzYuNyAzNy43IDh6Ij48L3BhdGg+PHBhdGggZmlsbD0iI0ZGRiIgZD0iTTMzLjEgMTNMMjQgMTMgMjQgMTcgMjguOSAxNyAyOC42IDIxIDI0IDIxIDI0IDI1IDI4LjQgMjUgMjguMSAyOS41IDI0IDMwLjkgMjQgMzUuMSAzMS45IDMyLjUgMzIuNiAyMSAzMi42IDIxeiI+PC9wYXRoPjxwYXRoIGZpbGw9IiNFRUUiIGQ9Ik0yNCwxM3Y0aC04LjlsLTAuMy00SDI0eiBNMTkuNCwyMWwwLjIsNEgyNHYtNEgxOS40eiBNMTkuOCwyN2gtNGwwLjMsNS41bDcuOSwyLjZ2LTQuMmwtNC4xLTEuNEwxOS44LDI3eiI+PC9wYXRoPjwvc3ZnPg==') 50% 50% no-repeat;
+    background: url('/src/assets/icons8-css3-48.png') 50% 50% no-repeat;
     display: inline-block;
     height: 48px;
     width: 48px;
 }
 .tree .js:after {
     background-size: 100%;
-    background: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iNDgiIGhlaWdodD0iNDgiCnZpZXdCb3g9IjAgMCA0OCA0OCIKc3R5bGU9IiBmaWxsOiMwMDAwMDA7Ij48cGF0aCBmaWxsPSIjZmZkNjAwIiBkPSJNNiw0MlY2aDM2djM2SDZ6Ij48L3BhdGg+PHBhdGggZmlsbD0iIzAwMDAwMSIgZD0iTTI5LjUzOCAzMi45NDdjLjY5MiAxLjEyNCAxLjQ0NCAyLjIwMSAzLjAzNyAyLjIwMSAxLjMzOCAwIDIuMDQtLjY2NSAyLjA0LTEuNTg1IDAtMS4xMDEtLjcyNi0xLjQ5Mi0yLjE5OC0yLjEzM2wtLjgwNy0uMzQ0Yy0yLjMyOS0uOTg4LTMuODc4LTIuMjI2LTMuODc4LTQuODQxIDAtMi40MSAxLjg0NS00LjI0NCA0LjcyOC00LjI0NCAyLjA1MyAwIDMuNTI4LjcxMSA0LjU5MiAyLjU3M2wtMi41MTQgMS42MDdjLS41NTMtLjk4OC0xLjE1MS0xLjM3Ny0yLjA3OC0xLjM3Ny0uOTQ2IDAtMS41NDUuNTk3LTEuNTQ1IDEuMzc3IDAgLjk2NC42IDEuMzU0IDEuOTg1IDEuOTUxbC44MDcuMzQ0QzM2LjQ1MiAyOS42NDUgMzggMzAuODM5IDM4IDMzLjUyMyAzOCAzNi40MTUgMzUuNzE2IDM4IDMyLjY1IDM4Yy0yLjk5OSAwLTQuNzAyLTEuNTA1LTUuNjUtMy4zNjhMMjkuNTM4IDMyLjk0N3pNMTcuOTUyIDMzLjAyOWMuNTA2LjkwNiAxLjI3NSAxLjYwMyAyLjM4MSAxLjYwMyAxLjA1OCAwIDEuNjY3LS40MTggMS42NjctMi4wNDNWMjJoMy4zMzN2MTEuMTAxYzAgMy4zNjctMS45NTMgNC44OTktNC44MDUgNC44OTktMi41NzcgMC00LjQzNy0xLjc0Ni01LjE5NS0zLjM2OEwxNy45NTIgMzMuMDI5eiI+PC9wYXRoPjwvc3ZnPg==') 50% 50% no-repeat;
+    background: url('/src/assets/icons8-javascript-48.png') 50% 50% no-repeat;
+    display: inline-block;
+    height: 48px;
+    width: 48px;
+}
+.tree .netlify::after {
+    background-size: 100%;
+    background: url('/src/assets/netlify-logo-50px.png') 50% 50% no-repeat;
+    display: inline-block;
+    height: 48px;
+    width: 48px;
+}
+.tree .nodejs:after {
+    background-size: 100%;
+    background: url('/src/assets/icons8-nodejs-48.png')  0 0 no-repeat;
+    display: inline-block;
+    height: 48px;
+    width: 48px;
+}
+.tree .vue:after {
+    background-size: 100%;
+    background: url('/src/assets/icons8-vue-js-48.png') 50% 50% no-repeat;
     display: inline-block;
     height: 48px;
     width: 48px;
