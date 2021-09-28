@@ -1,20 +1,23 @@
-## Thursday, September 23, 2021 @ 11:15:15 AM
-
-> Learning to use the awesome features on Netlify.
-
-> Changed DNS settings to point to my domain on Netlify.
-
-> My site is up and live, including SSL 😉
+## Tuesday, September 28, 2021 @ 01:14:21 PM
 
 ---
 
-> -   https://jjaimealeman.netlify.app/ now points to https://jjaimealeman.com/
-> -   https://github.com/OrganizedFellow/jjaleman.nodejs
+> https://jjaimealeman.netlify.app/ now points to https://jjaimealeman.com/
+
+> Also figured out how to serve https://dev.jjaimealeman.com/ from my `dev` branch.
+>
+> That's where I will test new layouts, etc.
+
+---
+
+Decided to self-host my chosen Google Fonts. No reason other than privacy. The few milliseconds saved is not noticeable.
 
 ---
 
 To Do:
 
--   [ ] Do this
--   [ ] Do that
--   [ ] Do that again
+-   [x] Task 1
+-   [ ] Task 2
+    -   [x] Subtask a
+    -   [ ] Subtask b
+-   [x] Task 3
