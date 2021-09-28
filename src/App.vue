@@ -46,13 +46,13 @@
                 <img class="mx-auto" src="@/assets/icons8-html-5-48.png" alt="">
                 <pre class="text-center pb-2 text-yellow-700"><span class="bg-gray-200 p-1 rounded-lg">&lt;html&gt;</span></pre>
                 The HTML of your website is like the foundation and wooden support structure of your home. <br />
-                This includes the door and window frames, as well as the opening of your garage, and the things stored in your attic. <br />
+                This includes the door and window frames, as well as the entry way of your garage, and the things stored in your attic. <br />
                 This is also the back porch, the fencing around your yard, and where you park your car.
             </p>
             <p class="mx-5 px-5 pt-5 border-t-2">
                 <img class="mx-auto" src="@/assets/icons8-css3-48.png" alt="">
                 <pre class="text-center pb-2 text-blue-500"><span class="bg-gray-200 p-1 rounded-lg">&lt;css&gt;</span></pre>
-                The CSS is the color of the walls, the thickness of your carpet, and the texture of your walls. <br />
+                The CSS is the color of the walls, the thickness of your carpet, and the texture of your walls and carpet. <br />
                 This is the square footage of your rooms, the height and width of your door/window frames. <br />
                 This is also the size of your yard, the height of your fence, and the angle of your driveway.
             </p>
