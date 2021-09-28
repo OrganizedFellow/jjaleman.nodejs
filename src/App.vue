@@ -2,35 +2,26 @@
 
     <div class="container mx-auto">
 
-        <h1 class="text-5xl text-center pt-32">Hi all, I'm Jaime</h1>
+        <h1 class="text-5xl text-center pt-32">Hi all, I'm Jaime J. Aleman</h1>
         <h2 class="text-3xl text-center pt-10">I like building cool websites with JavaScript and other exciting frameworks.</h2>
 
-        <div class="grid justify-items-center pt-20">
+        <div class="grid justify-items-center pt-20 pb-14">
             <img class="selfiepic w-24 sm:w-36 md:w-48 lg:w-60" src="~@/assets/vectorme.png" alt="selfie1" title="This VECTOR me!" />
         </div>
 
-        <div id="techstack" class="grid grid-cols-4 gap-5 justify-items-center pt-20">
-            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48">
-                <path fill="#E65100" d="M41 5H7l3 34 14 4 14-4 3-34z" />
-                <path fill="#FF6D00" d="M24 8v31.9l11.2-3.2L37.7 8z" />
-                <path fill="#FFF" d="M24 25v-4h8.6l-.7 11.5-7.9 2.6v-4.2l4.1-1.4.3-4.5H24zm8.9-8 .3-4H24v4h8.9z" />
-                <path fill="#EEE" d="M24 30.9v4.2l-7.9-2.6-.4-5.5h4l.2 2.5 4.1 1.4zM19.1 17H24v-4h-9.1l.7 12H24v-4h-4.6l-.3-4z" />
-            </svg>
-            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48">
-                <path fill="#0277BD" d="M41 5H7l3 34 14 4 14-4 3-34z" />
-                <path fill="#039BE5" d="M24 8v31.9l11.2-3.2L37.7 8z" />
-                <path fill="#FFF" d="M33.1 13H24v4h4.9l-.3 4H24v4h4.4l-.3 4.5-4.1 1.4v4.2l7.9-2.6.7-11.5z" />
-                <path fill="#EEE" d="M24 13v4h-8.9l-.3-4H24zm-4.6 8 .2 4H24v-4h-4.6zm.4 6h-4l.3 5.5 7.9 2.6v-4.2l-4.1-1.4-.1-2.5z" />
-            </svg>
-            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48">
-                <path fill="#ffd600" d="M6 42V6h36v36H6z" />
-                <path fill="#000001" d="M29.538 32.947c.692 1.124 1.444 2.201 3.037 2.201 1.338 0 2.04-.665 2.04-1.585 0-1.101-.726-1.492-2.198-2.133l-.807-.344c-2.329-.988-3.878-2.226-3.878-4.841 0-2.41 1.845-4.244 4.728-4.244 2.053 0 3.528.711 4.592 2.573l-2.514 1.607c-.553-.988-1.151-1.377-2.078-1.377-.946 0-1.545.597-1.545 1.377 0 .964.6 1.354 1.985 1.951l.807.344C36.452 29.645 38 30.839 38 33.523 38 36.415 35.716 38 32.65 38c-2.999 0-4.702-1.505-5.65-3.368l2.538-1.685zm-11.586.082c.506.906 1.275 1.603 2.381 1.603 1.058 0 1.667-.418 1.667-2.043V22h3.333v11.101c0 3.367-1.953 4.899-4.805 4.899-2.577 0-4.437-1.746-5.195-3.368l2.619-1.603z" />
-            </svg>
-            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48">
-                <path fill="#81c784" d="m23.987 17-5.253-9H2.974l21.013 36L45 8H29.24z" />
-                <path fill="#455a64" d="m29.24 8-5.253 9-5.253-9h-7.588l12.841 22L36.828 8z" />
-            </svg>
-        </div>
+        <section id="techstack" class="">
+            <div class="tree-wrap">
+                <div class="tree-label">At the heart of every website, these are the simple languages used:</div>
+                <div class="tree-stem"></div>
+                <div class="tree">
+                    <div class="html"></div>
+                    <div class="css"></div>
+                    <div class="js"></div>
+                </div>
+            </div>
+        </section>
+
+
 
     </div>
     <!-- container -->
@@ -59,4 +50,77 @@ export default {
 
 /* SVG ICONS FROM https://css.gg/app */
 /* ONLINE TOOL TO OPTIMIZE SVG FILES https://jakearchibald.github.io/svgomg/ */
+
+.tree-wrap {
+    align-items: center;
+    background-color: hsla(228, 8%, 12%, 0.25);
+    border-radius: 0.5em;
+    display: flex;
+    flex-direction: column;
+    height: 15rem;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 1rem 0;
+    width: 90%;
+}
+.tree-label {
+    color: white;
+    /* margin-bottom: 2.5em; */
+}
+.tree-stem {
+    background-color: white;
+    height: 2rem;
+    width: .2rem;
+}
+.tree {
+    border-top: solid white .2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 75%;
+}
+.tree div {
+    background-color: white;
+    display: flex;
+    height: 2rem;
+    justify-content: center;
+    position: relative;
+    width: .2rem;
+}
+.tree div::after {
+    /* background-color: orange; */
+    /* border-radius: 9999px; */
+    bottom: -2.5rem;
+    content: '';
+    /* display: block; */
+    flex: none;
+    /* height: 2.5rem; */
+    position: relative;
+    /* width: 2.5rem; */
+}
+/* 
+    BACKGROUND IMAGES FROM https://icons8.com/
+*/
+.tree .html::after {
+    background-size: 100%;
+    background: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iNDgiIGhlaWdodD0iNDgiCnZpZXdCb3g9IjAgMCA0OCA0OCIKc3R5bGU9IiBmaWxsOiMwMDAwMDA7Ij48cGF0aCBmaWxsPSIjRTY1MTAwIiBkPSJNNDEsNUg3bDMsMzRsMTQsNGwxNC00TDQxLDVMNDEsNXoiPjwvcGF0aD48cGF0aCBmaWxsPSIjRkY2RDAwIiBkPSJNMjQgOEwyNCAzOS45IDM1LjIgMzYuNyAzNy43IDh6Ij48L3BhdGg+PHBhdGggZmlsbD0iI0ZGRiIgZD0iTTI0LDI1di00aDguNmwtMC43LDExLjVMMjQsMzUuMXYtNC4ybDQuMS0xLjRsMC4zLTQuNUgyNHogTTMyLjksMTdsMC4zLTRIMjR2NEgzMi45eiI+PC9wYXRoPjxwYXRoIGZpbGw9IiNFRUUiIGQ9Ik0yNCwzMC45djQuMmwtNy45LTIuNkwxNS43LDI3aDRsMC4yLDIuNUwyNCwzMC45eiBNMTkuMSwxN0gyNHYtNGgtOS4xbDAuNywxMkgyNHYtNGgtNC42TDE5LjEsMTd6Ij48L3BhdGg+PC9zdmc+') 50% 50% no-repeat;
+    display: inline-block;
+    height: 48px;
+    width: 48px;
+}
+.tree .css:after {
+    background-size: 100%;
+    background: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iNDgiIGhlaWdodD0iNDgiCnZpZXdCb3g9IjAgMCA0OCA0OCIKc3R5bGU9IiBmaWxsOiMwMDAwMDA7Ij48cGF0aCBmaWxsPSIjMDI3N0JEIiBkPSJNNDEsNUg3bDMsMzRsMTQsNGwxNC00TDQxLDVMNDEsNXoiPjwvcGF0aD48cGF0aCBmaWxsPSIjMDM5QkU1IiBkPSJNMjQgOEwyNCAzOS45IDM1LjIgMzYuNyAzNy43IDh6Ij48L3BhdGg+PHBhdGggZmlsbD0iI0ZGRiIgZD0iTTMzLjEgMTNMMjQgMTMgMjQgMTcgMjguOSAxNyAyOC42IDIxIDI0IDIxIDI0IDI1IDI4LjQgMjUgMjguMSAyOS41IDI0IDMwLjkgMjQgMzUuMSAzMS45IDMyLjUgMzIuNiAyMSAzMi42IDIxeiI+PC9wYXRoPjxwYXRoIGZpbGw9IiNFRUUiIGQ9Ik0yNCwxM3Y0aC04LjlsLTAuMy00SDI0eiBNMTkuNCwyMWwwLjIsNEgyNHYtNEgxOS40eiBNMTkuOCwyN2gtNGwwLjMsNS41bDcuOSwyLjZ2LTQuMmwtNC4xLTEuNEwxOS44LDI3eiI+PC9wYXRoPjwvc3ZnPg==') 50% 50% no-repeat;
+    display: inline-block;
+    height: 48px;
+    width: 48px;
+}
+.tree .js:after {
+    background-size: 100%;
+    background: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iNDgiIGhlaWdodD0iNDgiCnZpZXdCb3g9IjAgMCA0OCA0OCIKc3R5bGU9IiBmaWxsOiMwMDAwMDA7Ij48cGF0aCBmaWxsPSIjZmZkNjAwIiBkPSJNNiw0MlY2aDM2djM2SDZ6Ij48L3BhdGg+PHBhdGggZmlsbD0iIzAwMDAwMSIgZD0iTTI5LjUzOCAzMi45NDdjLjY5MiAxLjEyNCAxLjQ0NCAyLjIwMSAzLjAzNyAyLjIwMSAxLjMzOCAwIDIuMDQtLjY2NSAyLjA0LTEuNTg1IDAtMS4xMDEtLjcyNi0xLjQ5Mi0yLjE5OC0yLjEzM2wtLjgwNy0uMzQ0Yy0yLjMyOS0uOTg4LTMuODc4LTIuMjI2LTMuODc4LTQuODQxIDAtMi40MSAxLjg0NS00LjI0NCA0LjcyOC00LjI0NCAyLjA1MyAwIDMuNTI4LjcxMSA0LjU5MiAyLjU3M2wtMi41MTQgMS42MDdjLS41NTMtLjk4OC0xLjE1MS0xLjM3Ny0yLjA3OC0xLjM3Ny0uOTQ2IDAtMS41NDUuNTk3LTEuNTQ1IDEuMzc3IDAgLjk2NC42IDEuMzU0IDEuOTg1IDEuOTUxbC44MDcuMzQ0QzM2LjQ1MiAyOS42NDUgMzggMzAuODM5IDM4IDMzLjUyMyAzOCAzNi40MTUgMzUuNzE2IDM4IDMyLjY1IDM4Yy0yLjk5OSAwLTQuNzAyLTEuNTA1LTUuNjUtMy4zNjhMMjkuNTM4IDMyLjk0N3pNMTcuOTUyIDMzLjAyOWMuNTA2LjkwNiAxLjI3NSAxLjYwMyAyLjM4MSAxLjYwMyAxLjA1OCAwIDEuNjY3LS40MTggMS42NjctMi4wNDNWMjJoMy4zMzN2MTEuMTAxYzAgMy4zNjctMS45NTMgNC44OTktNC44MDUgNC44OTktMi41NzcgMC00LjQzNy0xLjc0Ni01LjE5NS0zLjM2OEwxNy45NTIgMzMuMDI5eiI+PC9wYXRoPjwvc3ZnPg==') 50% 50% no-repeat;
+    display: inline-block;
+    height: 48px;
+    width: 48px;
+}
+
 </style>
