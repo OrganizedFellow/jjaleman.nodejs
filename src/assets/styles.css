@@ -178,7 +178,8 @@ body {
     padding: 1em;
     margin-top: 1em;
 }
-a.logo svg, a.logo svg * {
+a.logo svg,
+a.logo svg * {
     height: 50px;
     width: 50px;
 }
@@ -187,7 +188,8 @@ a.logo::after {
     font-family: monospace;
     font-weight: bold;
 }
-a.logo svg:hover, a.logo:hover {
+a.logo svg:hover,
+a.logo:hover {
     color: hsl(225, 73%, 65%);
 }
 #navigation nav a {
@@ -221,18 +223,10 @@ section:last-of-type {
     transform: rotate(-2deg);
 }
 #techstack svg {
-=======
-
-/* #techstack svg {
->>>>>>> dev
     @apply transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-125;
-} */
-
-/* @media screen and (max-width: 769px) {
 }
-
-@media screen and (min-width: 769px) {
-}
-
-@media screen and (min-width: 1024px) {
-} */
+/*
+@media screen and (max-width: 769px) { } 
+@media screen and (min-width: 769px) { } 
+@media screen and (min-width: 1024px) { } 
+*/
