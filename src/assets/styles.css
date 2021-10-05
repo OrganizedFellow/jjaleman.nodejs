@@ -162,10 +162,6 @@ a {
 html {
     scroll-behavior: smooth;
 }
-body {
-    background: hsl(0, 0%, 90%);
-    font-family: "Noto Sans", sans-serif;
-}
 #maincontain {
     background: hsl(0, 0%, 98%);
     box-shadow: 0px 2px 2px hsl(220deg 60% 50% / 0.2),
@@ -207,7 +203,7 @@ a.logo:hover {
         3px 6px 6px hsl(220deg 60% 50% / 0.333);
 }
 section {
-    border-bottom: 2px solid hsl(225, 73%, 65%);
+    /* border-bottom: 2px solid hsl(225, 73%, 65%); */
 }
 section:last-of-type {
     border-bottom: none;
