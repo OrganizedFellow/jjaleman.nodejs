@@ -1,4 +1,9 @@
 <template>
+
+<!-- <script defer data-domain="jjaimealeman.com" src="https://plausible.io/js/plausible.js"></script> -->
+<!-- GO HERE TO VIEW STATS -->
+<!-- https://plausible.io/jjaimealeman.com -->
+
     <div class="container mx-auto">
         <h1 class="text-5xl text-center pt-16 md:pt-32">Hi all, I'm Jaime J. Aleman</h1>
         <h2 class="text-3xl text-center pt-10">I like building nice and fast functional websites <br /> 
@@ -120,6 +125,12 @@ export default {
     components: {
         HelloWorld,
     },
+  mounted() {
+    let externalScript = document.createElement('script')
+    externalScript.setAttribute('defer data-data-domain', 'jjaimealeman.com')
+    externalScript.setAttribute('src', 'https://plausible.io/js/plausible.js')
+    document.head.appendChild(externalScript)
+  }
 };
 </script>
 
