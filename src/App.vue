@@ -124,13 +124,13 @@ export default {
     name: "App",
     components: {
         HelloWorld,
-    },
-  mounted() {
-    let externalScript = document.createElement('script')
-    externalScript.setAttribute('defer data-data-domain', 'jjaimealeman.com')
-    externalScript.setAttribute('src', 'https://plausible.io/js/plausible.js')
-    document.head.appendChild(externalScript)
-  }
+    }
+//   mounted() {
+    // let externalScript = document.createElement('script')
+    // externalScript.setAttribute('defer data-data-domain', 'jjaimealeman.com')
+    // externalScript.setAttribute('src', 'https://plausible.io/js/plausible.js')
+    // document.head.appendChild(externalScript)
+//   }
 };
 </script>
 
