@@ -13,8 +13,6 @@ Learning to use the awesome features on Netlify.
 > Also figured out how to serve https://dev.jjaimealeman.com/ from my `dev` branch.
 >
 > That's where I will test new layouts, etc.
->
-> > > > > > > dev
 
 ---
 
